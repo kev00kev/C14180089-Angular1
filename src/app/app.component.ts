@@ -33,7 +33,7 @@ EventClick(){
             }
             else
             {
-              this.board[this.a][this.b] = "1";
+              this.board[this.a-1][this.b-1] = "1";
               this.user = 0;
 
             }
