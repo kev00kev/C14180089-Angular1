@@ -146,7 +146,7 @@ if(
   }
   
 
-  if(
+  else if(
    this.board[0][0] == "1" &&
    this.board[0][1] == "1" &&
    this.board[0][2] == "1" &&
@@ -250,7 +250,9 @@ if(
   {
     alert("Player 1 Menang !!!");
   }
-
+else{
+  alert("Draw !!!")
+}
 }
 
 }
