@@ -2,8 +2,17 @@
 <p>
   Start editing to see some magic happen :)
 </p>
+<b>Giliran : Player {{user}}<br></b>
+Baris : <input [(ngModel)] = "a" type = "text"><br>
+Kolom : <input [(ngModel)] = "b" type = "text"><br>
 
-    <div *ngFor="let boards of board; let i = index">
-      {{board[i]}}
-    </div>
+<button (click)="EventClick()"> Put! </button>
+
+<br>
+<br>
+<br>
+
+<div *ngFor="let boards of board; let i = index">
+  {{board[i]}}
+</div>
  
