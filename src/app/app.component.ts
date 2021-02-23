@@ -22,19 +22,18 @@ export class AppComponent  {
 EventClick(){
   
   if (this.a > 0 && this.a < 6 && this.b > 0 && this.b < 6){
-      if(this.board[this.a-1][this.b-1] == "*"){
+      if(this.board[this.a-1][this.b-1] != "*"){
           alert('Isi yang lain !!!')
       }
       else
       {
-        this.a = this.a - 1;
-        this.b = this.b - 1;
-
             if (this.counter % 2 != 0){
+              this.board[this.a-1][this.b-1] = "0";
               this.user = 1;
             }
             else
             {
+              this.board[this.a][this.b] = "1";
               this.user = 0;
 
             }
