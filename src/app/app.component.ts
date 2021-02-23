@@ -91,6 +91,38 @@ if(
    this.board[4][2] == "0" &&
    this.board[4][3] == "0" &&
    this.board[4][4] == "0" ||
+
+   this.board[0][0] == "0" &&
+   this.board[1][0] == "0" &&
+   this.board[2][0] == "0" &&
+   this.board[3][0] == "0" ||
+
+   this.board[0][1] == "0" &&
+   this.board[1][1] == "0" &&
+   this.board[2][1] == "0" &&
+   this.board[3][1] == "0" ||
+
+   this.board[0][2] == "0" &&
+   this.board[1][2] == "0" &&
+   this.board[2][2] == "0" &&
+   this.board[3][2] == "0" ||
+
+   this.board[0][3] == "0" &&
+   this.board[1][3] == "0" &&
+   this.board[2][3] == "0" &&
+   this.board[3][3] == "0" ||
+
+   this.board[0][4] == "0" &&
+   this.board[1][4] == "0" &&
+   this.board[2][4] == "0" &&
+   this.board[3][4] == "0" ||
+
+   this.board[1][0] == "0" &&
+   this.board[2][0] == "0" &&
+   this.board[3][0] == "0" &&
+   this.board[4][0] == "0" ||
+
+
   ){
 
   }
